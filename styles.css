@@ -1,3 +1,9 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #cdcdcd;
+  text-align: center;
+}
 td {
   border: 2px solid #333;
   height: 100px;
@@ -41,4 +47,14 @@ table tr td:last-child {
   border-radius: 5px;
   color: white;
   font-size: 2em;
+}
+button {
+  transform: translateY(400px);
+  font-size: 1.1em;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 15px;
+}
+button:hover {
+  background-color: #e7e7e7;
 }
